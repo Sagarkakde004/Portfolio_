@@ -11,21 +11,21 @@ const Start = () => {
         "A self-taught full-stack developer with proven ability to build scalable applications. My Gig Jobs Application showcases my expertise in React and Spring Boot.",
       name: "Sagar Kakade",
       designation: "Full Stack Developer",
-      src: "../../../public/sagar-1.png",
+      src: "/sagar-1.png",
     },
     {
       quote:
         "During my internship at Widesoftech, I delivered responsive web pages with clean, efficient code. I'm committed to following best practices and maintaining code quality.",
       name: "Sagar Kakade",
       designation: "Front End Developer",
-      src: "../../../public/sagar-2.jpeg",
+      src: "/sagar-2.jpeg",
     },
     {
       quote:
         "Completed JP Morgan Chase certification and built innovative projects like an automatic farming system. Always eager to learn new technologies and solve real-world problems.",
       name: "Sagar Kakade",
       designation: "Software Engineer",
-      src: "../../../public/sagar-3.jpeg",
+      src: "/sagar-3.jpeg",
     },
   ];
 
