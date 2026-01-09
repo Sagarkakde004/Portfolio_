@@ -148,7 +148,7 @@ const About = ({ projectsRef }) => {
         >
           <div className="text-center">
             <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">
-              5+
+              50+
             </div>
             <div className="text-sm text-gray-600 dark:text-gray-400 mt-2">
               Projects Completed
@@ -164,7 +164,7 @@ const About = ({ projectsRef }) => {
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">
-              8+
+              10+
             </div>
             <div className="text-sm text-gray-600 dark:text-gray-400 mt-2">
               Technologies
