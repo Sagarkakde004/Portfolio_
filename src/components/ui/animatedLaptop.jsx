@@ -39,7 +39,7 @@ export default function AnimatedLaptop() {
                     words={[
                       "$ npm run dev\n✔ Compiled successfully\n> Ready on http://localhost:3000",
                       "$ git commit -m 'Implement professional portfolio'\n✔ [main 1a2b3c4] Implement professional portfolio",
-                      "$ deploy --production\n✔ Deployment successful\n> https://hardik-daim.vercel.app",
+                      "$ deploy --production\n✔ Deployment successful\n> https://sagar-daim.vercel.app",
                     ]}
                     loop={0}
                     cursor

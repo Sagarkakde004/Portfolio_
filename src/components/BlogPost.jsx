@@ -9,29 +9,31 @@ const BlogPost = () => {
   const { id } = useParams();
   const post = blogPosts.find((post) => post.id === id);
 
-  const defaultTitle = "Blog Post - Hardik Daim's Portfolio";
+  const defaultTitle = "Blog Post - sagar Daim's Portfolio";
   const defaultDescription =
     "Explore insightful articles on web development, software engineering, and more.";
   const defaultImage =
-    "https://hardik-daim.vercel.app/android-chrome-512x512.png";
-  const defaultUrl = "https://hardik-daim.vercel.app/blog";
+    "https://sagar-daim.vercel.app/android-chrome-512x512.png";
+  const defaultUrl = "https://sagar-daim.vercel.app/blog";
 
-  const title = post ? `${post.title} - Hardik Daim's Portfolio` : defaultTitle;
+  const title = post ? `${post.title} - sagar Daim's Portfolio` : defaultTitle;
   const description = post ? post.excerpt : defaultDescription;
-  const imageUrl = post?.content.find((section) => section.type === 'image')?.src || defaultImage;
+  const imageUrl =
+    post?.content.find((section) => section.type === "image")?.src ||
+    defaultImage;
   const url = post
-    ? `https://hardik-daim.vercel.app/blog/${post.id}`
+    ? `https://sagar-daim.vercel.app/blog/${post.id}`
     : defaultUrl;
 
   return (
     <>
       <Helmet>
         <title>{title}</title>
-        <link rel="canonical" href={`https://hardik-daim.vercel.app/${id}`} />
+        <link rel="canonical" href={`https://sagar-daim.vercel.app/${id}`} />
         <meta name="description" content={description} />
         <meta
           name="keywords"
-          content={`Hardik Daim, blog, ${
+          content={`sagar Daim, blog, ${
             post ? post.title : "web development, software engineering"
           }`}
         />

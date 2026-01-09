@@ -13,58 +13,59 @@ const BlogList = () => {
   return (
     <>
       <Helmet>
-        <title>Blog - Hardik Daim's Portfolio</title>
-        <link rel="canonical" href="https://hardik-daim.vercel.app/blog" />
+        <title>Blog - saagr Daim's Portfolio</title>
+        <link rel="canonical" href="https://sagar-daim.vercel.app/blog" />
         <meta
           name="description"
-          content="Read the latest blogs by Hardik Daim on web development, software engineering, and more."
+          content="Read the latest blogs by sagar Daim on web development, software engineering, and more."
         />
         <meta
           name="keywords"
-          content="Hardik Daim, blogs, web development, Software Engineer, technology, Full Stack Developer, Web Developer, React, Node.js, Portfolio, Hardik Portfolio, Hardik Daim Portfolio, Hardik"
+          content="sagar Daim, blogs, web development, Software Engineer, technology, Full Stack Developer, Web Developer, React, Node.js, Portfolio, sagar Portfolio, sagar Daim Portfolio, sagar"
         />
-        <meta property="og:title" content="Blog - Hardik Daim's Portfolio" />
+        <meta property="og:title" content="Blog - sagar Daim's Portfolio" />
         <meta
           property="og:description"
-          content="Read the latest blogs by Hardik Daim on web development, software engineering, and more."
+          content="Read the latest blogs by sagar Daim on web development, software engineering, and more."
         />
         <meta
           property="og:image"
-          content="https://hardik-daim.vercel.app/android-chrome-512x512.png"
+          content="https://sagar-daim.vercel.app/android-chrome-512x512.png"
         />
-        <meta property="og:url" content="https://hardik-daim.vercel.app/blog" />
+        <meta property="og:url" content="https://sagar-daim.vercel.app/blog" />
         <meta
           property="twitter:title"
-          content="Blog - Hardik Daim's Portfolio"
+          content="Blog - sagar Daim's Portfolio"
         />
         <meta
           property="twitter:description"
-          content="Read the latest blogs by Hardik Daim on web development, software engineering, and more."
+          content="Read the latest blogs by sagar Daim on web development, software engineering, and more."
         />
         <meta
           property="twitter:image"
-          content="https://hardik-daim.vercel.app/android-chrome-512x512.png"
+          content="https://sagar-daim.vercel.app/android-chrome-512x512.png"
         />
         <meta
           property="twitter:url"
-          content="https://hardik-daim.vercel.app/blog"
+          content="https://sagar-daim.vercel.app/blog"
         />
-           <script type="application/ld+json">
+        <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Blog",
-            "headline": "Blog - Hardik Daim's Portfolio",
-            "description": "Read the latest blogs by Hardik Daim on web development, software engineering, and more.",
-            "url": "https://hardik-daim.vercel.app/blog",
-            "author": {
+            headline: "Blog - sagar Daim's Portfolio",
+            description:
+              "Read the latest blogs by sagar Daim on web development, software engineering, and more.",
+            url: "https://sagar-daim.vercel.app/blog",
+            author: {
               "@type": "Person",
-              "name": "Hardik Daim"
+              name: "sagar Daim",
             },
-            "datePublished": new Date().toISOString(),
-            "mainEntityOfPage": {
+            datePublished: new Date().toISOString(),
+            mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://hardik-daim.vercel.app/blog"
-            }
+              "@id": "https://sagar-daim.vercel.app/blog",
+            },
           })}
         </script>
       </Helmet>

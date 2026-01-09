@@ -1,4 +1,3 @@
-// Projects.jsx - Updated for Sagar (No Live Links)
 import React, { forwardRef } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
