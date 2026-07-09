@@ -185,7 +185,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                 whileTap={{ scale: 0.95 }}
                 onClick={() =>
                   window.open(
-                    "https://docs.google.com/document/d/1VlDVwnCMnBXQM61nArCS7N-D0jKf5CFn/edit",
+                    "https://docs.google.com/document/d/1ryny_GZWSSR3P8cRIfkJGgllzI_lhZNl/edit",
                     "_blank",
                     "noopener,noreferrer",
                   )
