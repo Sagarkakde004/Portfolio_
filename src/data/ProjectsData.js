@@ -1,0 +1,186 @@
+// src/data/ProjectsData.js
+
+const projectsData = [
+  {
+    id: "gig-jobs-full-stack-application",
+    title: "Gig Jobs Application - Full Stack",
+    description:
+      "A comprehensive full-stack job marketplace application built with React and Spring Boot, enabling job seekers to find opportunities and recruiters to manage applications.",
+    image:
+      "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&auto=format&fit=crop",
+    liveLink: "https://github.com/Sagarkakde004/gig-jobs-app",
+    gitHubLink: "https://github.com/Sagarkakde004/gig-jobs-app",
+    technologies: [
+      "React.js",
+      "Spring Boot",
+      "Java",
+      "MySQL",
+      "Spring Security",
+      "REST API",
+      "Git",
+      "Postman",
+    ],
+    features: [
+      "User authentication and authorization with Spring Security",
+      "Job seeker registration and profile management",
+      "Browse and search job listings with filters",
+      "Job application submission and tracking",
+      "Recruiter dashboard for posting and managing jobs",
+      "Application management system for recruiters",
+      "Score maintaining system for candidates",
+      "Attendance tracking system",
+      "Mobile-responsive design for all devices",
+    ],
+    year: 2025,
+    role: "Full Stack Developer",
+    highlights: [
+      "Designed and implemented complete full-stack architecture",
+      "Integrated Spring Security for robust authentication",
+      "Built RESTful APIs for seamless frontend-backend communication",
+      "Developed responsive UI with React for optimal user experience",
+      "Implemented MySQL database with normalized schema design",
+      "Created role-based access control for job seekers and recruiters",
+    ],
+  },
+  {
+    id: "task-management-system-java",
+    title: "Task Management System",
+    description:
+      "A Java console application for efficient task management with features including task creation, status tracking, and comprehensive task listing.",
+    image:
+      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&auto=format&fit=crop",
+    liveLink: "https://github.com/Sagarkakde004/task-management-system",
+    gitHubLink: "https://github.com/Sagarkakde004/task-management-system",
+    technologies: [
+      "Java",
+      "Object-Oriented Programming",
+      "Collections Framework",
+      "File I/O",
+    ],
+    features: [
+      "Create and manage tasks with descriptions",
+      "Task status tracking (Pending, In Progress, Completed)",
+      "List all tasks with filtering options",
+      "Update task details and status",
+      "Delete completed tasks",
+      "Search functionality for quick task retrieval",
+      "Data persistence using file storage",
+    ],
+    year: 2024,
+    role: "Developer",
+    highlights: [
+      "Applied core Java OOP concepts including classes, objects, and inheritance",
+      "Utilized Java Collections Framework for efficient data management",
+      "Implemented clean code practices for maintainability",
+      "Designed intuitive console-based user interface",
+      "Created modular code structure for easy extensibility",
+    ],
+  },
+  {
+    id: "jpmorgan-certificate-projects",
+    title: "JP Morgan Chase & Co. Certification Projects",
+    description:
+      "Completed comprehensive software engineering virtual experience program, building real-world projects and learning industry-standard tools and practices.",
+    image:
+      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&auto=format&fit=crop",
+    liveLink: "https://github.com/Sagarkakde004/jpmorgan-projects",
+    gitHubLink: "https://github.com/Sagarkakde004/jpmorgan-projects",
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "Apache Kafka",
+      "H2 Database",
+      "REST API",
+      "Git",
+    ],
+    features: [
+      "Set up complex Spring Boot project environments",
+      "Integrated Apache Kafka for message streaming",
+      "Implemented H2 in-memory database solutions",
+      "Built RESTful API endpoints",
+      "Handled asynchronous messaging patterns",
+    ],
+    year: 2025,
+    role: "Software Engineering Intern (Virtual)",
+    highlights: [
+      "Completed 5 challenging technical tasks from JP Morgan Chase",
+      "Learned efficient project setup and configuration",
+      "Gained hands-on experience with Kafka integration",
+      "Enhanced skills in REST API development",
+      "Mastered H2 database configuration and usage",
+    ],
+  },
+  {
+    id: "widesoftech-internship-projects",
+    title: "Front-End Development Projects",
+    description:
+      "Collection of responsive web development projects completed during internship at Widesoftech Pvt. Ltd., focusing on modern UI/UX implementation.",
+    image:
+      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&auto=format&fit=crop",
+    liveLink: "https://github.com/Sagarkakde004/frontend-projects",
+    gitHubLink: "https://github.com/Sagarkakde004/frontend-projects",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Git",
+      "UI/UX Best Practices",
+    ],
+    features: [
+      "Developed multiple responsive web pages",
+      "Implemented modern UI components",
+      "Created mobile-first designs",
+      "Built interactive JavaScript features",
+      "Optimized for cross-browser compatibility",
+      "Followed company coding standards",
+    ],
+    year: 2025,
+    role: "Front End Web Developer Intern",
+    highlights: [
+      "Collaborated with development team on multiple projects",
+      "Delivered pixel-perfect implementations from designs",
+      "Maintained high code quality and consistency",
+      "Met project deadlines efficiently",
+      "Received positive feedback from team leads",
+      "Learned industry best practices and workflows",
+    ],
+  },
+  {
+    id: "automatic-farming-project",
+    title: "Automatic Farming System",
+    description:
+      "Innovative IoT-based automatic farming system with digital appliances, designed to optimize agricultural processes. Science Exhibition winner project.",
+    image:
+      "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&auto=format&fit=crop",
+    liveLink: "https://github.com/Sagarkakde004/automatic-farming",
+    gitHubLink: "https://github.com/Sagarkakde004/automatic-farming",
+    technologies: [
+      "IoT",
+      "Sensors",
+      "Automation Systems",
+      "Digital Control",
+      "Embedded Systems",
+    ],
+    features: [
+      "Automated irrigation system",
+      "Soil moisture monitoring",
+      "Temperature and humidity sensors",
+      "Automated fertilizer distribution",
+      "Digital monitoring dashboard",
+      "Alert system for critical conditions",
+    ],
+    year: 2024,
+    role: "Project Lead & Developer",
+    highlights: [
+      "Won 3rd place in Science Exhibition during graduation",
+      "Praised by teachers and principal for innovative approach",
+      "Demonstrated practical application of technology in agriculture",
+      "Designed complete system architecture",
+      "Successfully integrated multiple sensor systems",
+      "Presented project to academic panel and industry experts",
+    ],
+  },
+];
+
+export default projectsData;
